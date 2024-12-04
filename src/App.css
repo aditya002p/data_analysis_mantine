@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.title--maxmincrop,
+.title--avgyield {
+  width: 1000px;
+  text-align: center;
+  margin: 10px auto;
+  padding: auto;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+#Crop--maxProd--minProd {
+  font-family: Verdana, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 1000px;
+  margin: 10px auto;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+#Crop--maxProd--minProd td,
+#Crop--maxProd--minProd th {
+  border: 2px solid #ddd;
+  padding: 8px;
+}
+
+#Crop--maxProd--minProd thead tr th:nth-child(2),
+#Crop--maxProd--minProd thead tr th:nth-child(3) {
+  width: 300px;
+}
+
+#Crop--maxProd--minProd tr:nth-child(even) {
+  background-color: lightblue;
+}
+
+#Crop--maxProd--minProd tr:hover {
+  background-color: #ddd;
+}
+
+#Crop--maxProd--minProd th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: blue;
+  color: white;
+}
+
+#Crop--maxProd--minProd thead tr th,
+#Crop--maxProd--minProd tbody tr {
+  text-align: center;
+}
+
+/* ----------------------- Average yield and cultivation ----------------------- */
+
+#Crop--avgYield td,
+#Crop--avgYield th {
+  border: 2px solid #ddd;
+  padding: 8px;
+}
+
+#Crop--avgYield tr:nth-child(even) {
+  background-color: lightblue;
+}
+
+#Crop--avgYield tr:hover {
+  background-color: #ddd;
+}
+
+#Crop--avgYield th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: blue;
+  color: white;
+}
+
+#Crop--avgYield thead tr th,
+#Crop--avgYield tbody tr {
+  text-align: center;
+}
+
+#Crop--avgYield tbody tr td:nth-child(1) {
+  text-align: left;
+}
+
+#Crop--avgYield {
+  font-family: Verdana, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 1000px;
+  margin: 10px auto;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+#Crop--avgYield thead tr th:nth-child(2),
+#Crop--avgYield thead tr th:nth-child(3) {
+  word-wrap: break-word;
+  width: 300px;
+}

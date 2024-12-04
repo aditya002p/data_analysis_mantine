@@ -4,12 +4,14 @@ In the project directory, you can run:
 
 ### `yarn install`
 
+clone the repository: https://github.com/aditya002p/data_analysis_mantine.git
+then run: git clone https://github.com/aditya002p/data_analysis_mantine.git
+then run: yarn install
+to install all the dependencies.
 Installs the node modules for the app from `package.json`
 
-### `yarn start`
-
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
@@ -35,4 +37,4 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ### Average yield and cultivation of each crops between year 1950-2020
 
 ![solution-screenshot-avg-yield-and-cultivation](./public/images/image2.png)
-"# data_analysis_mantine" 
+"# data_analysis_mantine"
